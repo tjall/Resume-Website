@@ -1,0 +1,80 @@
+body{
+	background-image: url("images/cyber cafe.gif");
+	font-family: Arial;
+	margin: 0;
+}
+.about-page{
+	background-image: url("images/gamin.gif");
+	no-repeat center center fixed;
+	background-size: cover; 
+}
+header{
+	background: #77416d;
+	color:aqua;
+	padding: 15px 15px 0 15px;
+}
+header h1{
+	margin: 0;
+	display: inline;
+}
+nav ul{
+	margin: 0;
+	display: inline;
+	padding: 0 0 0 15px;
+}
+nav ul li{
+	background: #ff91a9;
+	display: inline-block;
+	list-style-type: none;
+	color: #77416d;
+	padding: 5px 15px;
+}
+
+h1{
+	color: orangered;
+}
+
+p{
+	background: #777;
+	color: white;
+	padding: 10px 0px;
+}
+
+.box{
+	border: #77416d;
+	font: 80px / 100px sans-sarif;
+	width: 20%;
+	heigth:100%;
+	overflow: scroll;
+}
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+::-webkit-scrollbar-track {
+	border: 1px solid orangered;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: orangered;
+	border-radius: 10px;
+}
+
+
+.second{
+	background: none;
+	color: #777;
+	padding: 10px 0px;
+}
+
+.row{
+
+}
+.col{
+	background: #777777;
+	float: left;
+	border-radius: 15px;
+	margin: 1%;
+	width: 31%;
+}
